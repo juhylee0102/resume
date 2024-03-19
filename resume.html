@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>juhylee's resume</title>
+		<link rel="stylesheet" href="resume.css">
+	</head>
+
+	<body>
+		<header>
+			<h1>juhylee's resume</h1>
+		</header>
+
+		<main>
+			<section>
+				<h2>Personal Info</h2>
+				<dl>
+					<div>
+						<dt>Name</dt>
+						<dd>이주형</dd>
+					</div>
+					<div>
+						<dt>Birth</dt>
+						<dd><time datetime="1997-10-21">1997. 10. 21</time></dd>
+					</div>
+				</dl>
+				<div>
+					<img src="portrait.jpg" alt="portrait">
+				</div>
+			</section>
+	
+			<section>
+				<h2>Contact</h2>
+				<dl>
+					<div>
+						<dt>Phone</dt>
+						<dd>+82 10 5703 1321</dd>
+					</div>
+					<div>
+						<dt>Email</dt>
+						<dd>juhylee@student.42seoul.kr</dd>
+					</div>
+					<div>
+						<dt>GitHub</dt>
+						<dd>
+							<a href="https://github.com/juhylee1021">
+							github.com/juhylee1021</a>
+						</dd>
+					</div>
+				</dl>
+			</section>
+	
+			<section>
+				<h2>Summery</h2>
+				<p></p>
+			</section>
+	
+			<section>
+				<h2>Skills</h2>
+				<ul>
+					<li class="skill expert">C</li>
+					<li class="skill expert">C++</li>
+					<li class="skill expert">IOCP</li>
+					<li class="skill">Git</li>
+					<li class="skill">Bash</li>
+					<li class="skill">Makefile</li>
+					<li class="skill">HTML</li>
+					<li class="skill">CSS</li>
+					<li class="skill">JavaScript</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Education</h2>
+				<p>
+					<span>
+						<strong>독학사</strong> 컴퓨터 공학
+					</span>
+					<span class="period">
+						<time datetime="2024-02-23">2024. 2</time>
+					</span>
+				</p>
+				<p>
+					<span>
+						<strong>42 서울</strong>
+					</span>
+					<span class="period">
+						<time datetime="2021-11">2021. 11</time>
+						-
+						<time datetime="2023-10">2023. 10</time>
+					</span>
+				</p>
+			</section>
+	
+			<section>
+				<h2>Projects</h2>
+				<article>
+					<h3>minishell</h3>
+					<ul class="skill-container">
+						<li class="skill expert">C</li>
+						<li class="skill">Bash</li>
+						<li class="skill">Makefile</li>
+					</ul>
+					<video controls>
+						<source src="minishell_demo.mp4" type="video/mp4">
+						minishell_demo
+					</video>
+					<p>
+					닫힌 인용부호, 리다이렉션 및 파이프라이닝, 환경변수 및 최근
+					종료상태 확장 그리고 몇가지 내장 명령어(echo, pwd, cd, env,
+					export, unset, exit)를 지원하는 간이 셸입니다.
+					</p>
+					<p>본 프로젝트는 42 서울의 yoseo와 공동 작업한 것으로
+					저의 작업은 아래와 같습니다.</p>
+					<ul>
+						<li>GNU Bash 메뉴얼 번역</li>
+						<li><code>t_environment</code>, <code>t_linked_list_command</code>
+							등 주요 구조체 정의</li>
+						<li>메인 루프 작성</li>
+						<li>사용자 입력 파싱</li>
+						<ul>
+							<li>인용부호 처리</li>
+							<li>환경변수 및 종료상태 확장</li>
+							<li>토크나이징</li>
+							<li>리다이렉션, 파이프라이닝을 위한 파이프 생성 </li>
+						</ul>
+					</ul>
+				</article>
+				<article>
+					<h3>The C++ Standard Template Library</h3>
+					<ul class="skill-container">
+						<li class="skill expert">C++</li>
+					</ul>
+					<img src="https://m.media-amazon.com/images/I/515aiJZMz8L._AC_UF1000,1000_QL80_.jpg" alt="The C++ STL" style="width: 200px;">
+					<p>오리지널 STL의 작성자인 Alexander A. Stepanov가 직접 저술에
+					참여한 <cite>The C++ Standard Template Library</cite>를 번역
+					중 입니다.</p>
+					<p>
+					<code>utility</code>, <code>iterator</code>, <code>memory</code>, 
+					<code>algorithm</code>, <code>numeric</code>, <code>functional</code>
+					, <code>vector</code>, <code>deque</code>, <code>list</code>,
+					<code>set</code>, <code>map</code>, <code>stack</code>, 
+					<code>queue</code> 13개 STL 헤더의 설계 원리와 실제 구현을 모두
+					포함하고 잇으며 시대적으로 템플릿 부분 특수화가 완전히 지원되지
+					않던 상황이었던 영향으로 템플릿 부분 특수화 없는 이터레이터
+					카테고리 구현이나 <code>far_ptr</code> 등의 지원에 대한 내용
+					또한 포함하고 있습니다.
+					</p>
+					<p>42 서울의 도서관에 원서와 함게 번역본을 기증 할 예정입니다.</p>
+				</article>
+			</section>
+		</main>
+
+		<footer>
+			<p>Copyrights 2024. Juhyeong Lee all rights reserved.</p>
+		</footer>
+	</body>
+</html>

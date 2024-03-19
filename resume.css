@@ -1,0 +1,254 @@
+@font-face {
+    font-family: 'MonoplexKR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_Monoplex-kr@1.0/MonoplexKR-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+          
+* {
+	font-family: 'Pretendard';
+	box-sizing: border-box;
+	margin: 0;
+}
+img, video{
+	width: 100%
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+header {
+	height: 1rem;
+}
+header *{
+	display: none;
+}
+
+body {
+	background: #1f1f1f;
+	color: #dfdfdf;
+	font-weight: 300;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr 33%;
+
+	width: 48rem;
+	margin: 0 auto;
+}
+
+section {
+	grid-column: 1 / 3;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 200;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
+	padding-left: 0.5em;
+	margin-bottom: 0.3em;
+	border-bottom: solid 0.1rem #731010;
+}
+h1 {
+	font-size: 3rem;
+}
+h2 {
+	font-size: 2.5rem;
+}
+h3 {
+	font-size: 1.8rem;
+}
+h1~*, h2~*, h3~*, h4~*, h5~*, h6~* {
+	margin-left: 1.75em;
+}
+
+ol, ul, dd {
+	padding-left: 1.3em;
+}
+
+p, li, dd {
+	line-height: 1.5em;
+	padding-bottom: 0.5em;
+}
+
+section:first-child {
+	display: grid;
+	grid-template-columns: 1fr 33%;
+
+	grid-row: 1 / 2;
+}
+section:first-child>h2,
+section:first-child dt {
+	display: none;
+}
+section:first-child>dl {
+	margin: 0;
+	display: block;
+	grid-row: 1 / 2;
+	grid-column: 1 / 3;
+
+	border-bottom: solid 0.1rem #731010;
+}
+section:first-child>dl>div {
+	display: inline-block;
+	font-weight: 200;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
+	padding-left: 0.5em;
+	margin-bottom: 0.3em;
+}
+section:first-child>dl div>dd {
+	display: inline-block;
+	line-height: 1em;
+	font-weight: 200;
+	padding: 0;
+}
+section:first-child>dl div:first-child dd {
+	font-size: 3rem;
+	letter-spacing: 0.1em;
+}
+section:first-child>dl div:nth-child(2) dd {
+	font-size: 1.8rem;
+}
+section:first-child>div {
+	grid-row: 1 / 3;
+	grid-column: 2 / 3;
+	overflow: hidden;
+	height: 14.4rem;
+	border-radius:
+}
+
+section:nth-child(2) {
+	grid-row: 1 / 2;
+	grid-column: 1 / 2;
+
+	margin-top: 5rem;
+}
+section:nth-child(2)>h2 {
+	display:none;
+}
+
+section:nth-child(3) {
+	display: none;
+}
+
+section:nth-child(4)>h2 {
+	display:none;
+}
+section:nth-child(4)>ul {
+	display: block;
+	margin: 1rem 0;
+	width: 65%
+}
+
+.skill {
+	display: inline-block;
+	font-family: 'MonoplexKR-Regular';
+	font-size: 0.8rem;
+	background-color: #707070;
+	padding: 0 0.55rem;
+	border-radius: 0.3em;
+}
+.expert {
+	background-color: #800000;
+}
+
+section:nth-child(5)>p {
+	line-height: 1.3em;
+	display: grid;
+	grid-template-columns: 1fr 25%;
+	width: 94%;
+}
+section:nth-child(5) span:first-child {
+	letter-spacing: 0.1em;
+}
+section:nth-child(5) span:nth-child(2) {
+	margin-left: auto;
+}
+
+article {
+	display: grid;
+	grid-template-columns: auto;
+}
+article>* {
+	max-width: 90%;
+}
+article>*:first-child {
+	grid-row: 1 / 2;
+	grid-column: 1 / 2;
+	max-width: 100%;
+}
+article>.skill-container {
+	grid-row: 1 / 2;
+	grid-column: 1 / 2;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+}
+article img, article video {
+	padding-bottom: 0.65em;
+}
+
+footer {
+	font-weight: 100;
+	font-size: 0.8rem;
+	margin: 1rem auto 1.5rem;
+	text-align: center;
+}
